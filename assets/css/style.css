@@ -327,10 +327,10 @@ footer {
     max-width: 100%;
   }
 }
-@media screen and (max-width: 640px)
- {
-
+@media screen and (max-width: 640px) {
+   
     header .container {
+        position: static;
         width: 100%;
       }
       
@@ -365,7 +365,8 @@ footer {
       }
       
       .main, .sidebar {
-        width: 500px;
+          position: static;
+        width: 375px;
         margin: 40px auto;
       }
       
@@ -374,7 +375,7 @@ footer {
       }
       
       .portfolio-item {
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
       }
       
